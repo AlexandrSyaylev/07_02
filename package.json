@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+    "prettier": "prettier --write index.js"
+
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/AlexandrSyaylev/07_02/issues"
   },
-  "homepage": "https://github.com/AlexandrSyaylev/07_02#readme"
+  "homepage": "https://github.com/AlexandrSyaylev/07_02#readme",
+  "dependencies": {
+    "eslint": "^8.21.0",
+    "prettier": "^2.7.1"
+  }
 }
