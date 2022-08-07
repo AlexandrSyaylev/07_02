@@ -10,4 +10,5 @@ const func = () => {
 
   console.log(sum(x, y)); // 50
 };
+
 func();
